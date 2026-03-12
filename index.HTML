@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Chatbot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h2>AI Assistant</h2>
+<select id="mode">
+<option>Normal Chat</option>
+<option>Deep Research</option>
+<option>Study & Learn</option>
+<option>Shopping Research</option>
+<option>Quiz Mode</option>
+</select>
+</header>
+
+<div id="chatBox"></div>
+
+<div class="tools">
+
+<input type="file" id="fileUpload">
+
+<button onclick="addEmoji()">😊</button>
+<button onclick="createPoll()">Poll</button>
+<button onclick="createEvent()">Event</button>
+<button onclick="addSticker()">Sticker</button>
+<button onclick="webSearch()">Search</button>
+
+</div>
+
+<div class="inputArea">
+
+<input type="text" id="userInput" placeholder="Ask anything...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
